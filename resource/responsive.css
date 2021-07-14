@@ -5,6 +5,7 @@
   nav{
     display: none;
   }
+  
   .banner{
     flex-direction: column;
     align-items: center;

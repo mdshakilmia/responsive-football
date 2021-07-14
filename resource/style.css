@@ -127,6 +127,7 @@ nav{
 .heilight-game {
   display: flex;
   justify-content: space-around;
+  margin: 30px 0;
 }
 .heilight-g-l{
   padding: 60px 35px;
