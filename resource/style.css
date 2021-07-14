@@ -61,11 +61,11 @@ nav{
   display: flex;
   justify-content: space-between;
   width: 1170px;
-  height: 560px;
   padding-bottom: 30px;
 }
 .banner-left{
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .banner-left h1{
   color: white;
@@ -111,6 +111,7 @@ nav{
   margin: 20px;
   padding: 30px;
   box-shadow:0px 0px 9px rgb(230 230 230);
+  width: 300px;
 }
 .player-card img {
   width: 300px;
@@ -122,6 +123,38 @@ nav{
   color: rgb(119, 119, 119);
   font-size: 14px;
 }
+/* HEILIGHT GAME */
+.heilight-game {
+  display: flex;
+  justify-content: space-around;
+}
+.heilight-g-l{
+  padding: 60px 35px;
+}
+.heilight-g-l h1{
+  font-size: 30px;
+  color: #222222;
+}
+.heilight-g-l p{
+  color: #7a7a7a;
+}
+.helight-r img {
+  width: 560px;
+}
+.heilight-g-l button i {
+  animation: sliding 1s infinite;
+}
+
+@keyframes sliding {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(15px);
+    opacity: 0;
+  }
+}
 /*---------------------
  MAIN SECTION STYLE END 
  -----------------------*/
@@ -130,6 +163,27 @@ nav{
  FOOTER STYLE START
  ------------------- */
 
+ .footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px 0;
+ }
+ .footer img{
+   width: 500px;
+ }
+ .footer span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.footer span i{
+  padding: 5px;
+  margin: 5px;
+  color: rgb(133, 133, 133);
+  background-color: rgb(223, 222, 222);
+  border-radius: 50%;
+}
 
 /*-------------------
  FOOTER STYLE END 

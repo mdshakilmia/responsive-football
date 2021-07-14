@@ -1,0 +1,34 @@
+@media only screen and (max-width: 688px) {
+  header{
+    height: 100%;
+  }
+  nav{
+    display: none;
+  }
+  .banner{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .banner-left h1{
+    font-size: 30px;
+  }
+  .banner-image img{
+    width: 360px;
+  }
+  .pleyer-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heilight-game{
+    flex-direction: column;
+    align-items: center;
+  }
+  .helight-r img{
+    width: 300px;
+  }
+  .footer img{
+    width: 300px;
+  }
+}
